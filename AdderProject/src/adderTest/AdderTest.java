@@ -17,5 +17,6 @@ public class AdderTest {
 	public void test() {
 		fail("Not yet implemented");
 	}
-	// add 1st line
+	// add 1st line - Alan
+	// add 2nd line - user2
 }
