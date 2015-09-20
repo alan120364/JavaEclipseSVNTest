@@ -18,4 +18,9 @@ public class Adder {
 	public int add2Integer(int a, int b){
 		return a + b;
 	}
+	
+	
+	public int add3Integer(int a, int b, int c){
+		return a + b + c;
+	}
 }
