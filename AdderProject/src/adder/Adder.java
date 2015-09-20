@@ -3,6 +3,12 @@ package adder;
 public class Adder {
 	
 	/**
+	 * Instantiates a new adder.
+	 */
+	public Adder(){
+		
+	}
+	/**
 	 * Add2 integer.
 	 *
 	 * @param a the 1st integer input
