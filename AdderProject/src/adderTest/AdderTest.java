@@ -2,7 +2,11 @@ package adderTest;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
+
+import adder.Adder;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -10,14 +14,23 @@ import org.junit.Test;
  */
 public class AdderTest {
 
+	/** The adder. */
+	private Adder adder;
+	
 	/**
-	 * Test.
+	 * Sets up before class.
+	 */
+	@BeforeClass
+	public void setUpBeforeClass(){
+		adder = new Adder();
+	}
+	
+	/**
+	 * Test add2integer().
 	 */
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testadd2Integer() {
+		int result = adder.add2Integer(1, 2);
+		assertTrue(result == 3);
 	}
-	// add 1st line - Alan
-	// add 2nd line - user2
-	// add 3rd line - Alan
 }
